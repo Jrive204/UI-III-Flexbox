@@ -64,3 +64,89 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* JOSE RIVERA'S CODE -- */
+body {
+	padding-top:1%;
+	margin: 0 auto;
+     }
+
+header{
+
+	padding-left: 5%;
+	
+	
+}
+.GI{
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+
+nav{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.toppg{
+	padding-bottom: 1%;
+	padding-top: 1%;
+    /* padding-left: 4%; */
+	/* margin: 9% 0px 0px 7%; */
+	display:flex;
+	justify-content: center;
+
+    text-align: center;
+	font-size: 50px;
+	width: 50%;
+}
+
+h1{
+	font-size: 100px;
+	
+}
+
+button {
+	text-align: center;
+	font-size: 25px;
+}
+
+.snip{
+	padding-bottom: 4%;
+}
+
+.borderline{
+	border: .5px solid black;
+}
+
+.FA{
+	font-size: 20px;
+
+	   width:47%;
+	   padding-bottom: 2%;
+	   padding-top: 2%	   
+	}
+.SPV{
+	font-size: 20px;
+	
+	width: 33%;
+	padding-bottom: 2%;
+	padding-top: 2%	 
+}
+
+.midimg img{
+	
+	width: 100%;
+}
+.contact{
+	font-size: 19px;
+	padding-top: 2%;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 9%;
+}
