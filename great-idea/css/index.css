@@ -70,17 +70,19 @@ h1, h2, h3, h4, h5 {
 
 html{
 	width: 100%;
+	padding: 1%;
 	/* height: 100%; */
 
 }
 body {
 	/* width:60% */
-	height: 180%;
+	/* height: 210%;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	align-items: center; */
 	width: 90%;
-	padding: 5%;
+	padding: 3%;
 	;
 	
 	/* margin: 0 auto; */
@@ -137,11 +139,15 @@ h1{
 }
 
 .borderline2{
-	border: 1px solid black;
+	border: .5px solid black;
 
 }
 .borderline{
-	border: 1px solid black;
+	border: .5px solid black;
+}
+
+.borderline3{
+	border:1px solid black;
 }
 
 .content1{
@@ -199,32 +205,35 @@ footer {
 }
 .serv1{
 	display: flex;
-	flex-direction:row;
-}
-
-.nMidsection{
-	/* display:flex; */
-	/* flex-wrap: wrap; */
-	
-	
-		}
-
-.DU {
-	margin: 2%;
-	display: flex;
-	justify-content: center;
-	justify-content: space-around;
-	
-	
-	
-		/* width:50% */
 	}
 
-.DD {
-	padding: 4%;
-	border: 2px solid black;
+.Midcontainer {
+	width: 100%;	
+	display: flex;
+	flex-flow: wrap;
+
 	
 }
+.secbut{
+	font-size: 17px;
+}
 
+.DD1{
+width: 45%;
+	background: lightgray;
+  border: 1px solid black;
+  margin: 2.5%;
+  padding: 2%;
 
+}
 
+.endcont{
+	display:flex;
+	justify-content: space-around;
+}
+
+.end{
+	width: 45%;
+	border: 1px solid black;	
+
+}
